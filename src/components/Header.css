@@ -1,0 +1,33 @@
+header {
+  border-bottom: 1px solid gray;
+}
+
+.header-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.header-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.header-left a {
+  margin-left: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+input {
+  border: none;
+  padding: 5px;
+}
+
+.header-right {
+  display: flex;
+  gap: 20px;
+}
